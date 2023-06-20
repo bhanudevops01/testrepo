@@ -5,3 +5,5 @@
     tasks:
       -  name: checking tim
          shell: "uptime"
+      -  name: checking kernel
+         shell: "uname -a"
