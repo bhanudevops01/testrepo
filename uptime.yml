@@ -1,0 +1,7 @@
+---
+ -  name: check the uptimr
+    hosts: all
+    become_method: yes
+    tasks:
+      -  name: checking tim
+         shell: "uptime"
