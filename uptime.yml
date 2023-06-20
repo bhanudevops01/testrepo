@@ -7,3 +7,5 @@
          shell: "uptime"
       -  name: checking kernel
          shell: "uname -a"
+      -  name: adding date
+         shell: "date"
