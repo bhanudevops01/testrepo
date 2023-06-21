@@ -13,3 +13,5 @@
          shell: "hostname"
       - name: adding banner
         shell: "echo 'hai'"
+      - name: adding passwd file
+        shell: "cat /etc/passwd"
