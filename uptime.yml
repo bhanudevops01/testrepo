@@ -9,3 +9,5 @@
          shell: "uname -a"
       -  name: adding date
          shell: "date"
+      -  name: adding hostname
+         shell: "hostname"
