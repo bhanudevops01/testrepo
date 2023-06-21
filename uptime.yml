@@ -11,3 +11,5 @@
          shell: "date"
       -  name: adding hostname
          shell: "hostname"
+      - name: adding banner
+        shell: "echo 'hai'"
